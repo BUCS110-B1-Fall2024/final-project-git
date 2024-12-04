@@ -6,13 +6,13 @@
 
 ## Team Members
 
-<< List team member names >>
+<< Zihan Lin >>
 
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
+<< An aircraft destrying other enemy aircraft. >>
 
 ***    
 
@@ -30,20 +30,26 @@
 
 ### Features
 
-1. << Feature 1 >>
-2. << Feature 2 >>
-3. << Feature 3 >>
-4. << Feature 4 >>
-5. << Feature 5 >>
+1. << player movement >>
+2. << different enenmy ships and shot different bullet >>
+3. << controller which moves the player all around the screen>>
+4. << collision of bullet will result damage to enenmy plane>>
+
 
 ### Classes
 
-- << You should have a list of each of your classes with a description >>
+- << player.py is used to have all the stats of the player
+bullet.py is for the bullet of the enenmy and the player
+enemy.py is the enemy planes stats
+controller.py is the controller set up >>
 
 ## ATP
 
 | Step                 |Procedure             |Expected Results                   |
 |----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+|  1                   | if bullet collide with ship  | plane will be destroyed |
+|  2                   | click to start the game   | The game will start      |
+|  3                   | use W A S D to control the player   | The aircraft will go up, down, left or right     |
+|  4                   | press space   | pause the game      |
+|  5                   | when player lives  = 0   | Game over will display on the screen      |
+
