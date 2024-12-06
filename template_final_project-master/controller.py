@@ -1,18 +1,15 @@
 import pygame
 class Controller:
-    def __init__(self, x, y, speed, size, up, down, left, right, start, pause, image):
+    def __init__(self, x, y, speed, up, down, left, right, shoot, image):
         self.x = x
         self.y = y
         self.speed = speed
-        self.size = size
         self.up = up
         self.down = down
         self.left = left
         self.right = right
-        self.start = start
-        self.pause = pause
+        self.shoot = shoot
         self.image = pygame.image.load(image)
-        self.image = pygame.transform.scale(self.image, (self.size, self.size))
         self.rect = self.image.get_rect()
         self.rect.topleft = (self.x, self.y)
     def move_up(self):
